@@ -142,6 +142,7 @@ function select_case()
 					return res;
 				});
 				console.log(result);
+				///////////
 				jQuery.ajax(
 				{
 					url: "for_db.php",
@@ -176,6 +177,7 @@ function select_case()
 					return false;
 					}
 				});
+				///////////
 			}
 			else
 			{
@@ -186,6 +188,8 @@ function select_case()
 	});
 }
 //setTimeout(5000)
+//setTimeout(function(){alert("Привет!")},5000)
+///////
 function open_case_function()
 {
 	var message = {
