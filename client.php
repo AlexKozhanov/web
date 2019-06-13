@@ -1,14 +1,3 @@
-<?$db_host   = 'localhost';
-$db_user   = 'alex';
-$db_pass   = '228322';
-$db_database = "web_technology";
-
-$link = mysql_connect($db_host,$db_user,$db_pass);
-mysql_select_db($db_database,$link);
-mysql_select_db($db_database,$link) or die("Нет соединения с БД".mysql_error());
-mysql_query("SET NAMES utf8");
-?>
-
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

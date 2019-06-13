@@ -1,6 +1,6 @@
 <?
 $db_database = "web_technology";
-$mysqli = new Mysqli('localhost', 'pasha', '643105', $db_database);
+$mysqli = new Mysqli('localhost', 'user', '12345', $db_database);
 /** Получаем наш ID статьи из запроса */
 //$name = trim($_POST['name']);
 $surname = trim($_POST['surname']);
